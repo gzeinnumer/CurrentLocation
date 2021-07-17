@@ -295,7 +295,7 @@ public class MainActivity extends AppCompatActivity {
         int permissionState = ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
         return permissionState == PackageManager.PERMISSION_GRANTED;
     }
-    
+
     @Override
     protected void onPause() {
         super.onPause();
